@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>It's Trivia Time!</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Pacifico&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="flex.css" />
+</head>
+<body>
+
+    <header>
+		<div class="logo"><img src="./images/iconfinder_17_3561850.png" alt="happy emoji"/>
+    		<h1>! It's The Fun Random Trivia Quiz!</h1>
+
+    </div>
+	</header>
+	<nav class="navbar">
+		<ul class="menu">
+			<li>Question: 1 of 10</li>
+			<li>Score: 2 out of 2 right so far!</li>
+		</ul>
+	</nav>
+	<main>
+    <section class="triviaBox">
+        <div class="initialWindow">
+            <h2>Let's Get Ready To Play</h2>
+            <h3>10 Fun Random Pieces of Trivia That Will Impress Your Frieds!</h3>
+            <h5>assuming you have some :(</h5>
+            <form>
+                <button>Ready To Risk It All?</button>
+            </form>
+        </div>
+		</section>
+		<section class="triviaBox triviaBoxQuestion">
+            <div class="question">
+                <span class="questionLocation">You are on question 1 of 10 ...</span>
+                <span class="comment">It's well known that people can be allergic to pets. But did you know that pets can also be allergic to people?</span>
+                <form method="post" action="/Tests/Post">
+                        <legend>Which house pet can be allergic to you?</legend>
+                        <input type="radio" name="triviaOption" value="Cats">Cats<br>
+                        <input type="radio" name="triviaOption" value="Dogs">Dogs<br>
+                        <input type="radio" name="triviaOption" value="Birds">Birds<br>
+                        <br>
+                        <input type="submit" value="What Say You">
+                </form>
+            </div>
+            <div class = "answer">
+                <h1>You're Right! Great guess!</h1>
+            </div>
+        </section>
+		<section class="triviaBox triviaBoxQuestion">
+            <div class="question">
+                <span class="questionLocation">You are on question 2 of 10 ...</span>
+                <span class="comment">We know it's your favorite chocolate candy. But do you even know what it stands for?</span>
+                <form method="post" action="/Tests/Post">
+                        <legend>What do the M's stand for in M&M?</legend>
+                        <input type="radio" name="triviaOption" value="MikeAndMike">Mike Ike and Ike Mike<br>
+                        <input type="radio" name="triviaOption" value="MarsAndMurrie">Forrest Mars and Bruce Murray<br>
+                        <input type="radio" name="triviaOption" value="eminem">Eminem The Rapper<br>
+                        <br>
+                        <input type="submit" value="What Say You">
+                </form>
+            </div>
+            <div class = "answer">
+                <h1>So sorry. Try taking 5th grade over again.</h1>
+                <p>It's Forrest Mars and Bruce Murray. Forrest is from the Mars family of candy and Murray is from the Hershey family.</p>
+            </div>
+		</section>
+        
+		<section class="triviaBox triviaSummary">
+            <div class="summary">
+                <h1>Contratulations!</h1>
+                <p>You got 2 out of 10 right!</p>
+                <p>I would tell you what the percentage is, but the math might be too hard for you.</p>
+                <p>How about giving it another go?</p>
+                <form>
+                    <button>OK, let me try again</button>
+                </form>
+            </div>
+		</section>
+	</main>
+</body>
+</html>

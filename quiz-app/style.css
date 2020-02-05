@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    max-width:800px;
+  }
+  
+  .logo > img {
+    width: 50px;
+  }
+p {
+    padding:10px;
+    text-align:left;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: grey;
+}
