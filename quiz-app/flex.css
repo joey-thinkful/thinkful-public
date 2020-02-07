@@ -5,6 +5,24 @@
     margin-bottom:5px;   
 }
 
+.navbar p.mainText{
+    color: white;
+    text-align: center;
+    padding:1px;
+}
+
+.navbar h2 {
+    font-size:1.6em;
+    padding:3px;
+    margin:3px;
+    color:yellow;
+}
+
+.navbar span.currentScore {
+    color: wheat;
+
+}
+
 .menu {
     flex-direction: row;
     justify-content: space-between;
@@ -19,6 +37,7 @@
     margin:auto;
     margin-bottom:5px;
     width:300px;
+    text-align:left;
 }
 
 .social {
@@ -50,6 +69,7 @@
     .triviaBox {
         width:90%;
         margin:auto;
+        text-align:left;
     }
 }
 
@@ -82,6 +102,7 @@
 
     .triviaBox {
         width:75%;
+        text-align:left;
     }
 }
 
@@ -139,5 +160,6 @@
         border-radius: 10px;
         width:100%;
         margin:auto;
+        text-align:left;
     }
 }
