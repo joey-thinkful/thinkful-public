@@ -15,7 +15,7 @@
     font-size:1.6em;
     padding:3px;
     margin:3px;
-    color:yellow;
+    color: #333;
 }
 
 .navbar span.currentScore {
@@ -58,6 +58,14 @@
         color: white;
     }
 
+    .radioButtons label {
+        display: inline-block;
+        padding: 4px 11px;
+        font-family: Arial;
+        font-size: 13px;
+        cursor: pointer;
+        color: white;
+      }
 
     .social {
         justify-content: space-between;

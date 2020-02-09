@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>It's Trivia Time!</title>
+    <title>Scientific Discoveries in 2019</title>
     <link href="https://fonts.googleapis.com/css?family=Lato|Pacifico&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,26 +16,33 @@
     <header>
         <h1>New Scientific Discoveries in 2019!</h1>
     </header>
-    <nav class="navbar">
-        <p class="mainText">So many interesting new discoveries in 2019! <br />
-            Were you even paying attention?</p>
-        <h2>I double dog dare you to take this quiz and find out!</h2>
-    </nav>
-    <main>
-        <section class="triviaBox">
-            <div class="initialWindow">
-                <h2>Let's Get Ready To Play!!</h2>
-                <h3>5 questions - get them right and impress your friends!</h3>
-                <h5>As an added bonus, we will keep track of your score. We promise not to judge you ... too much.</h5>
-                <form action="./q1.html">
-                    <button class="button blueButton">Challenge Accepted!</button>
-                </form>
-            </div>
-        </section>
-    </main>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <div id="mainId">
+        <nav class="navbar">
+            <p class="mainText">So many interesting new discoveries in 2019!
+                Were you paying attention?</p>
+            <h2>Take this quiz and find out!</h2>
+        </nav>
+        <main>
+            <section class="triviaBox">
+                <div class="initialWindow">
+                    <h2>Let's Get Ready To Play!</h2>
+                    <h3>5 questions - get them right and impress your friends!</h3>
+                    <h5>As an added bonus, we will keep track of your score. We promise not to judge you ... too much.
+                    </h5>
+                    <form id="startQuiz">
+                        <button class="button blueButton">Challenge Accepted!</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="questions"></div>
+    <div class="summary"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="utils.js"></script>
     <script src="questions.js"></script>
-    <script src="index.js"></script> -->
+    <script src="section.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

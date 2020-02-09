@@ -11,12 +11,43 @@
     background-image: url(./images/stars-bg.jpg);
   }
   
-  .logo > img {
+.logo > img {
     width: 50px;
   }
 p {
     padding:10px;
     text-align:left;
+    font-size: 15px;
+    font-weight:normal;
+    color: silver;
+}
+/* 
+.mainSection[data-num='0'] {
+  display:block;
+} */
+
+.answer h2.right, .answer h2.wrong {
+  display:none;
+}
+
+
+.initialWindow, .question {
+  padding:20px;
+}
+
+ #questionForm {
+  margin: auto;
+  width: 71%;
+} 
+
+.mainSection[data-num='0'],
+.mainSection[data-num='1'],
+.mainSection[data-num='2'],
+.mainSection[data-num='3'],
+.mainSection[data-num='4'],
+.mainSection[data-num='5'],
+.mainSection[data-num='6'] {
+  display:none;
 }
 
 h1{
@@ -29,16 +60,42 @@ h2, h3, h5 {
   color: white;
 }
 
+.initialWindow h2, 
+.initialWindow h3, 
+.initialWindow h5, 
+#startQuiz {
+  padding: 10px;
+}
 
-.question h3 {
+.initialWindow h2, 
+.initialWindow h3, 
+.initialWindow h5, 
+#playAgainButton,
+#startQuiz, 
+.question h3,
+.question p,
+.answer h2.right,
+.answer h2.wrong {
   width:70%;
   margin:auto;
 }
 
+.answer {
+  background: rgba(76, 175, 80, 0.6); /* Green background with 30% opacity */
+  padding: 10px;
+}
 span.currentQ, span.totalQ {
   color:blue;
   font-style: italic;
   font-weight:bold;
+}
+.imageClass {
+  width:50%;
+  padding:5px;
+}
+.spaceImg {
+  width:60%;
+  float:right;
 }
 
 .answer h1 {
